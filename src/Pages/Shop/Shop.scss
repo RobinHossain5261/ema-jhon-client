@@ -1,0 +1,16 @@
+.shop-containear {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+
+    .products-containear {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        padding: 50px;
+    }
+
+    .cart-containear {
+        background-color: #FFE0B3;
+    }
+}

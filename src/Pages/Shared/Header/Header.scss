@@ -1,0 +1,10 @@
+$bg-color: #1C2B35;
+
+.header {
+    background-color: $bg-color ;
+}
+
+.menu a:hover {
+    background-color: darkgoldenrod;
+    border-radius: 5px;
+}

@@ -1,0 +1,26 @@
+$bg-btn: #FFE0B3;
+
+.btn {
+    background-color: $bg-btn;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border: none;
+}
+
+.pro-card {
+    position: relative;
+
+    .buy-btn {
+        @extend .btn;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .buy-btn:hover {
+        background-color: orange;
+    }
+}
